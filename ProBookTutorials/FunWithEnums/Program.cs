@@ -8,17 +8,34 @@ namespace FunWithEnums
 {
     class Program
     {
+        public enum EmpType
+        {
+            Manger = 2,
+            SrManager,
+            ProgramManager,
+            Director,
+            SeniorDirector
+        }
+
         static void Main(string[] args)
         {
-            //s void JustAMethod()
-            //{
-
-            //}
+            JustAMethod(); 
         }
 
         public static void JustAMethod()
         {
+            Console.WriteLine("Please Select your Designation");
+            Console.WriteLine("1. Manager");
+            Console.WriteLine("2. Sr. Manager");
+            Console.WriteLine("3. Program Manager");
+            Console.WriteLine("4. Director");
+            Console.WriteLine("5. Senior Director");
 
+            int choosedOne = Convert.ToInt32(Console.ReadLine());
+
+            EmpType empType = (EmpType)choosedOne;
+
+            string choosedDesignation = empType.ToString();
         }
     }
 }
