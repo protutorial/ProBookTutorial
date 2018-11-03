@@ -10,6 +10,14 @@ namespace FunWithEnums
     {
         static void Main(string[] args)
         {
+            //s void JustAMethod()
+            //{
+
+            //}
+        }
+
+        public static void JustAMethod()
+        {
 
         }
     }
