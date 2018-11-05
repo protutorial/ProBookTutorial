@@ -37,5 +37,16 @@ namespace FunWithEnums
 
             string choosedDesignation = empType.ToString();
         }
+
+        static void AnotherNewMethod()
+        {
+
+        }
+
+    }
+
+    class Car
+    {
+
     }
 }
