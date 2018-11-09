@@ -11,13 +11,17 @@ namespace FunWithClasses
         static void Main(string[] args)
         {
             int speed = 50;
+
             string name = "Tesla 2020";
 
-            NewCar car = new NewCar(name, speed);
-
-            car.speed = 200;
+            NewCar car = new NewCar(name, speed)
+            {
+                speed = 200
+            };
 
             Console.WriteLine($"Name: {car.carName} Speed: {car.speed} ");
+
+            Console.WriteLine(30_00_000);
         }
     }
 }

@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunWithEnums", "FunWithEnum
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunWithClasses", "FunWithClasses\FunWithClasses.csproj", "{2C31BBD0-9660-47D4-A3F8-5B91E4CE9915}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicInheritanceEamples", "BasicInheritanceEamples\BasicInheritanceEamples.csproj", "{9C08ED45-2DF3-4D02-9028-A02F228D7F2B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{2C31BBD0-9660-47D4-A3F8-5B91E4CE9915}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2C31BBD0-9660-47D4-A3F8-5B91E4CE9915}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2C31BBD0-9660-47D4-A3F8-5B91E4CE9915}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C08ED45-2DF3-4D02-9028-A02F228D7F2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C08ED45-2DF3-4D02-9028-A02F228D7F2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C08ED45-2DF3-4D02-9028-A02F228D7F2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C08ED45-2DF3-4D02-9028-A02F228D7F2B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
