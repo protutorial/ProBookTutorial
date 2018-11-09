@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace BasicInheritanceEamples
 {
-    partial class Employee
+    abstract partial class Employee
     {
+
         public string EmpName
         {
             get { return empName; }
@@ -49,15 +50,18 @@ namespace BasicInheritanceEamples
             SocialSecurityNumber = ssn;
         }
 
+        public EmployeeBenifitPackage BenifitPackage
+        {
+            get { return employeeBenifitPackage; }
+            set { employeeBenifitPackage = value; }
+        }
+
         public Employee(string name, int age, int id, int pay, string ssn) : this(name, age, id, pay)
         {
             EmpName = name; Age = age; ID = age; CurrentPay = pay; SocialSecurityNumber = ssn;
         }
 
         public Employee() { }
-
-        //public Employee(string name, int id, int pay)
-        //: this(name, 0, id, pay) { }
 
         public Employee(string name, int age, int id, int pay)
         {

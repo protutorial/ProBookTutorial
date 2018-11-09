@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{9C08ED45-2DF3-4D02-9028-A02F228D7F2B}</ProjectGuid>
+    <ProjectGuid>{77AFBF36-451A-4413-9580-D8131A5317AA}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>BasicInheritanceEamples</RootNamespace>
-    <AssemblyName>BasicInheritanceEamples</AssemblyName>
+    <RootNamespace>Shapes</RootNamespace>
+    <AssemblyName>Shapes</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,13 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Employee.Core.cs" />
-    <Compile Include="Employee.cs" />
-    <Compile Include="EmployeeBenifitPackage.cs" />
-    <Compile Include="Manager.cs" />
+    <Compile Include="Circle.cs" />
+    <Compile Include="Hexagon.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SalesPerson.cs" />
+    <Compile Include="Shape.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

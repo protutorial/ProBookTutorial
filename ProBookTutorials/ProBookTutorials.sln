@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunWithClasses", "FunWithCl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicInheritanceEamples", "BasicInheritanceEamples\BasicInheritanceEamples.csproj", "{9C08ED45-2DF3-4D02-9028-A02F228D7F2B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shapes", "Shapes\Shapes.csproj", "{77AFBF36-451A-4413-9580-D8131A5317AA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{9C08ED45-2DF3-4D02-9028-A02F228D7F2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9C08ED45-2DF3-4D02-9028-A02F228D7F2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9C08ED45-2DF3-4D02-9028-A02F228D7F2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77AFBF36-451A-4413-9580-D8131A5317AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77AFBF36-451A-4413-9580-D8131A5317AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77AFBF36-451A-4413-9580-D8131A5317AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77AFBF36-451A-4413-9580-D8131A5317AA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

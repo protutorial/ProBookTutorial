@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BasicInheritanceEamples
 {
-    partial class Employee
+    abstract partial class Employee
     {
         //Fields
         private string empName;
@@ -15,14 +15,16 @@ namespace BasicInheritanceEamples
         private int id;
         private int currentPay;
 
+        protected EmployeeBenifitPackage employeeBenifitPackage = new EmployeeBenifitPackage();
+
         //Methods
 
-        public void GiveBonus(int currPay)
+        public virtual void GiveBonus(int currPay)
         {
-            currentPay = currPay;
+            currentPay += currPay;
         }
 
-        public void Display()
+        public virtual void Display()
         {
             Console.WriteLine($"Employee Name: {empName}");
             Console.WriteLine($"Employee Age: {empAge}");

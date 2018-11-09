@@ -19,5 +19,28 @@ namespace BasicInheritanceEamples
         {
 
         }
+
+        public override sealed void GiveBonus(int currPay)
+        {
+            int salesBonus = 0;
+            if(SalesCount >= 0 && SalesCount <= 100)
+            {
+                salesBonus = 10;
+            }
+            else
+            {
+                    if (SalesCount >= 101 && SalesCount <= 200)
+                        salesBonus = 15;
+                    else
+                        salesBonus = 20;
+            }
+            base.GiveBonus(currPay * salesBonus);
+        }
+
+        public override void Display()
+        {
+            base.Display();
+            Console.WriteLine($"The Sales Count is : {SalesCount}");
+        }
     }
 }
