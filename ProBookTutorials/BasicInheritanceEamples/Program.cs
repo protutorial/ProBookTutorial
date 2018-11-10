@@ -23,6 +23,15 @@ namespace BasicInheritanceEamples
 
             //SalesPerson newSalesPerson = new PTSalesPerson("Jill", 834, 3002, 100000, "111-12-1119", 90);
 
+            GivePromotion((Employee)suri);
+
+
+
+        }
+
+        static void GivePromotion(Employee emp)
+        {
+            Console.WriteLine($"{emp.EmpName} is Promoted !!!");
         }
     }
 }
