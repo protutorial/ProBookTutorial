@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BasicInheritanceEamples
 {
-    abstract partial class Employee
+    public abstract partial class Employee
     {
         //Fields
         private string empName;

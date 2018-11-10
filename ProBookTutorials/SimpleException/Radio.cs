@@ -4,13 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BasicInheritanceEamples
+namespace SimpleException
 {
-    public class EmployeeBenifitPackage
+    class Radio
     {
-        public double ComputePayDeduction()
+        public void TurnOn(bool on_off)
         {
-            return 1.256;
+            Console.WriteLine(on_off ? "Jamming.." : "Quite TIming");
         }
     }
 }

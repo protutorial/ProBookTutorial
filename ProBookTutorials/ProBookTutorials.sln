@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicInheritanceEamples", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shapes", "Shapes\Shapes.csproj", "{77AFBF36-451A-4413-9580-D8131A5317AA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjectOverrides", "ObjectOverrides\ObjectOverrides.csproj", "{F41F1C06-4C98-4477-B292-A9269788E4FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleException", "SimpleException\SimpleException.csproj", "{3953A9E8-B228-4BB5-A5A6-358E0E79A0E4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{77AFBF36-451A-4413-9580-D8131A5317AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{77AFBF36-451A-4413-9580-D8131A5317AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{77AFBF36-451A-4413-9580-D8131A5317AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F41F1C06-4C98-4477-B292-A9269788E4FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F41F1C06-4C98-4477-B292-A9269788E4FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F41F1C06-4C98-4477-B292-A9269788E4FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F41F1C06-4C98-4477-B292-A9269788E4FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3953A9E8-B228-4BB5-A5A6-358E0E79A0E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3953A9E8-B228-4BB5-A5A6-358E0E79A0E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3953A9E8-B228-4BB5-A5A6-358E0E79A0E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3953A9E8-B228-4BB5-A5A6-358E0E79A0E4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

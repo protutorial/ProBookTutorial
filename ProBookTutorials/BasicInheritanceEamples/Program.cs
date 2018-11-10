@@ -25,8 +25,6 @@ namespace BasicInheritanceEamples
 
             GivePromotion((Employee)suri);
 
-
-
         }
 
         static void GivePromotion(Employee emp)
